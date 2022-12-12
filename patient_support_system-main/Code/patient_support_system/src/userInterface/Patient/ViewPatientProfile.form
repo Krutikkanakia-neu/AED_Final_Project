@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="394" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="emailID" min="-2" pref="101" max="-2" attributes="0"/>
+                          <Component id="address" min="-2" pref="194" max="-2" attributes="0"/>
+                          <Component id="phoneNumber" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="addreessstxt" pref="184" max="32767" attributes="0"/>
+                          <Component id="adddress2txt" pref="184" max="32767" attributes="0"/>
+                          <Component id="eaddresstxt" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtphonenumberrr" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="btnpatientback" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="486" max="-2" attributes="0"/>
+                      <Component id="manageEnt1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="390" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="394" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="zipCode" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="town" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="citytxt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="zipCodeField" alignment="0" min="-2" pref="184" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="LastName" alignment="1" min="-2" pref="194" max="-2" attributes="0"/>
+                                      <Component id="firstName" alignment="1" min="-2" pref="194" max="-2" attributes="0"/>
+                                      <Component id="viewYourProfile1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="occupation" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txttlname" alignment="0" pref="184" max="32767" attributes="0"/>
+                              <Component id="occupationntxtt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txttnamee1" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="address2" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="dateOfBirth" alignment="0" min="-2" pref="194" max="-2" attributes="0"/>
+                              <Component id="gender" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="viewYourProfile2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="dobtxttt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="genderComboBox" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="394" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="manageEnt1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="242" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="addreessstxt" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="address" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="adddress2txt" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="eaddresstxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="emailID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtphonenumberrr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="phoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnpatientback" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                  <Component id="viewYourProfile1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="firstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txttnamee1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="LastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txttlname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="dateOfBirth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dobtxttt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="gender" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="genderComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="viewYourProfile2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="49" max="32767" attributes="0"/>
+                  <Component id="address2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="citytxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="town" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="zipCodeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="zipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="occupation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="occupationntxtt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="txttnamee1">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="viewYourProfile2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Address: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtphonenumberrr">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtphonenumberrrActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LastName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnpatientback">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;&lt; Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnpatientbackActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txttlname">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dateOfBirth">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date Of Birth (YYYY/MM/DD):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="address">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address Line1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="addreessstxt">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="town">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Town/City: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="citytxt">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="zipCode">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zip Code:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="zipCodeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="occupationntxtt">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="occupation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Occupation:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="dobtxttt">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="address2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address Line2 : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="adddress2txt">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="manageEnt1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Malayalam MN" size="24" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Patient Support"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="gender">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gender:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="firstName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="genderComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Choose gender"/>
+            <StringItem index="1" value="Female"/>
+            <StringItem index="2" value="Male"/>
+            <StringItem index="3" value="Transgender"/>
+            <StringItem index="4" value="Unknown"/>
+          </StringArray>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="phoneNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="viewYourProfile1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Personal Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="emailID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="eaddresstxt">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
