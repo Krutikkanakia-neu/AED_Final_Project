@@ -1,0 +1,51 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package business.workQueuepkg;
+
+import business.commonUtils.Krutik;
+
+
+
+
+public class DonationRequest extends WorkRequest{
+    
+    private String donatedBy;
+    private String requestId;
+    private static int count = 000;
+    private Krutik donation;
+   
+    public DonationRequest()
+    {
+        StringBuffer sb = new StringBuffer();
+        sb.append("DONATION");
+        sb.append(count);
+        requestId = sb.toString();
+        count++;
+    }
+
+    public String getDonatedBy() {
+        return donatedBy;
+    }
+
+    public void setDonatedBy(String donatedBy) {
+        this.donatedBy = donatedBy;
+    }
+
+    public void setDonation(Krutik donation) {
+        this.donation = donation;
+    }
+
+    public Krutik getDonation() {
+        return donation;
+    }
+
+    @Override
+    public String toString() {
+        return this.requestId;
+    }
+    
+    
+}
